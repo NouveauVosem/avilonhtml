@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avilon</title>
+  <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="./styles/gallery.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <div id="app">
+    
+    <header>
+      <div class="language-container">
+          <button class="btn-light">укр</button>
+          <button class="btn-light">eng</button>
+      </div>
+      <div class="header-content">
+        
+        <div class="header-left">
+          <div class="logo">
+            <a href="./index.html"><img src="/assets/img/logo.png"/></a>
+          </div>
+        </div>
+        <div class="header-right">
+          <nav class="navbar-container">
+              <li class="navbar-item"><a href="#">Галерея</a></li>
+              <li class="navbar-item"><a href="#">Про нас</a></li>
+              <li class="navbar-item"><a href="#">Контакти</a></li>
+          </nav>
+          <button class="btn-orange">Замовити</button>
+        </div>
+      </div>
+    </header>
+
+
+
+    <main>
+      <section class="navigation-feed">Крихти > Крихти</section>
+      
+        <section class="gallery-selector">
+          
+          <div class="combo-box-container"> 
+            <div class="btn-combo-box">
+              <div class="combo-box-text-container">
+                <p>Стілажі для супермаркетів</p>
+              </div>
+              <div class="combo-box-arrow">
+                <img src="./assets/img/arrow-down-grey.png" />
+              </div>
+            </div>
+            <div class="dropdown-menu">
+              <div class="dropdown-item">
+                <p>Стілажі для супермаркетів 2</p>
+              </div>
+              <div class="dropdown-item">
+                <p>Стілажі для супермаркетів 2</p>
+              </div>
+              <div class="dropdown-item">
+                <p>Стілажі для супермаркетів 2</p>
+              </div>
+              
+            </div>
+          </div>
+
+
+          <div class="btn-combo-box">
+            <div class="combo-box-text-container">
+              <p>Брендовані стілажі</p>
+            </div>
+            <div class="combo-box-arrow">
+              <img src="./assets/img/arrow-down-grey.png" />
+            </div>
+          </div>
+          <div class="btn-combo-box">
+            <div class="combo-box-text-container">
+              <p>Рол-контейнери,візок</p>
+            </div>
+            <div class="combo-box-arrow">
+              <img src="./assets/img/arrow-down-grey.png" />
+            </div>
+          </div>
+        </section>
+
+        <section class="gallery">
+          <div class="gallery-title">
+            <h2>Ролл-контейнери спеціалізовані</h2>
+          </div>
+          <div class="product-list">
+            <!-- <div class="product-item">
+              <div class="product-image">
+                <img src="assets/img/products/discount-stand.png" />
+              </div>
+              <div class="product-name">
+                <p>Ролл-контейнер КМ Ролл-контейнер КМ</p>
+              </div>
+            </div> -->
+          </div>
+        </section>
+          
+        <section class="contact-section">
+          <div clas="contact-container">
+          <div class="contact-title">
+            <h3>Звязок з нами</h3>
+            <p>Залишіть нам свої контактні данні, та ми звяжемося з вами в короткі терміни</p>
+          </div>
+          <form class="contact-input-form">
+            <input class="contact-input" type="text" placeholder="Iм'я">
+            <input class="contact-input" type="text" placeholder="Email">
+            <input class="contact-input" type="text" placeholder="Номер телефону">
+            <textarea class="contact-textarea" type="text" placeholder="Коментар"></textarea>
+            <p class="small-text">*інформація про правила конфеденційності, та не передання особистої інформації третім особaм</p>
+            <button class="btn-orange">Відправити</button>
+          </form>
+          </div>
+        </section>
+        
+    </main>
+    
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./assets/img/logo-white.png" />
+        </div>
+        <div class="footer-assortment">
+          <h4>Асортимент</h4>
+          <p class="footer-text-white">Стілажі для супермаркетів</p>
+          <p class="footer-text-white">Брендові стілажі</p>
+          <p class="footer-text-white">Рол-контейнери, візки</p>
+        </div>
+        <div class="footer-info">
+          <h4>Інформація</h4>
+          <p class="footer-text-white">Контакти</p>
+          <p class="footer-text-white">Про нас</p>
+        </div>
+        <div class="footer-contacts">
+          <h4>Контакти</h4>
+          <p class="footer-text-white">avilon@gmail.com</p>
+          <p class="footer-text-white">+4 000 00 00 00</p>
+          <p class="footer-text-white">+4 000 00 00 00</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="./scripts/index.js"></script>
+</body>
+</html>

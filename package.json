@@ -1,0 +1,20 @@
+{
+  "name": "avilon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NouveauVosem/Avilon.git"
+  },
+  "author": "Pavlo Bilan and Egor Barabash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NouveauVosem/Avilon/issues"
+  },
+  "homepage": "https://github.com/NouveauVosem/Avilon#readme"
+}
