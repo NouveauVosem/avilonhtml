@@ -169,7 +169,7 @@ header {
 
 .video-box {
   width: 1280px; /* Set the desired width of the box */
-  height: 350px; /* Set the desired height of the box */
+  height: 400px; /* Set the desired height of the box */
   border: 1px solid #a7a7a7; /* Optional: Add a border to the box */
   border-radius: 10px; /* Optional: Round the corners */
   overflow: hidden; /* Ensures the video does not exceed the box's boundaries */
